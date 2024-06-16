@@ -23,6 +23,7 @@ Route::get('/category/post/{id}', [\App\Http\Controllers\API\HomeController::cla
 Route::get('/category/posts', [\App\Http\Controllers\API\HomeController::class, 'showRandomCategories']);
 Route::get('/latest/posts', [\App\Http\Controllers\API\HomeController::class, 'latestPosts']);
 Route::get('/search/posts', [\App\Http\Controllers\API\HomeController::class, 'searchPosts']);
+Route::get('/post/{slug}', [\App\Http\Controllers\API\UserPostController::class, 'show']);
 
 // auth routes
 Route::middleware(['auth'])->group(function () {

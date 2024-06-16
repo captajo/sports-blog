@@ -108,7 +108,7 @@
 
         methods: {
             getPostDetail() {
-                axios.get('/api/user/posts/' + this.slug).then(resp => {
+                axios.get('/api/post/' + this.slug).then(resp => {
                     this.post = resp.data.data;
                     this.commentForm.post_id = this.post.id;
                 });
