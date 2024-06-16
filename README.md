@@ -34,3 +34,18 @@ Kindly follow the steps below to setup the project on your local machine:
 - Build frontend file by running `npm run build`
 - Server your application using `php artisan serve`
 - Open your browser and navigate to `http://localhost:8000` to view the application
+
+## Application Features
+
+- Basic Authentication using Laravel auth scaffold
+- Users can perform CRUD operations on posts
+- Users can comment on posts
+- Posts are displayed on the homepage
+- Post can be previewed by clicking on the post
+- Post can be searched using the search bar
+- API for CRUD operation for post
+- API for post listing and previews
+
+## Testing 
+
+The basic features have been covered by unit test. To run the unit test, run `./vendor/bin/phpunit` on your terminal

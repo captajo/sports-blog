@@ -1,6 +1,9 @@
 <template>
     <div>
         <div class="row">
+            <div class="col-md-12 text-center" v-if="posts.length == 0">
+                You have not created any post.
+            </div>
             <div class="col-md-4" v-for="rec in posts">
                 <div class="feature_news_item">
                     <div class="item">
