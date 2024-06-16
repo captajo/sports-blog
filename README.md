@@ -31,6 +31,7 @@ Kindly follow the steps below to setup the project on your local machine:
 - Generate application key, by running the command `php artisan key:generate` in your terminal
 - Migrate the database by running the command `php artisan migrate`
 - Load content in your database by running the command `php artisan db:seed`
+- Link the storage to display uploads `php artisan storage:link`
 - Build frontend file by running `npm run build`
 - Server your application using `php artisan serve`
 - Open your browser and navigate to `http://localhost:8000` to view the application
